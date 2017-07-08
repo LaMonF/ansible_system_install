@@ -1,3 +1,6 @@
 ---
 
-- include: gitkraken.yml
+#- include: gitkraken.yml
+  #- include: androidstudio.yml
+  #- include: webstorm.yml
+- include: pycharm.yml

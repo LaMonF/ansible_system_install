@@ -1,5 +1,9 @@
 ---
 
+- include: init_directory.yml
+  vars: 
+        directory: 'webstorm'
+
 - unarchive:
         src: https://download.jetbrains.com/webstorm/WebStorm-2017.1.4.tar.gz
         dest: /tmp/webstorm

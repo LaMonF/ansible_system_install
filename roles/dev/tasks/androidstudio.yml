@@ -1,6 +1,10 @@
 ---
 
+- include: init_directory.yml
+  vars: 
+        directory: 'androidStudio'
+
 - unarchive:
          src: https://dl.google.com/dl/android/studio/ide-zips/2.3.3.0/android-studio-ide-162.4069837-linux.zip
-         dest: /tmp/androidstudio
+         dest: "{{ final_destination }}/androidStudio"
          remote_src: True

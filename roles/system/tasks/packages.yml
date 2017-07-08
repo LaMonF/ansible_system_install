@@ -3,7 +3,8 @@
 - apt:
         update_cache: yes
         upgrade: dist
-
+- debug:
+        msg: final destination "{{ final_destination }}"
 - apt:
         name: "{{ item }}"
         state: present
@@ -19,3 +20,4 @@
         - kvm
         - virt-manager
         - redshift-gtk
+        - unzip

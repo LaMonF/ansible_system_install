@@ -1,0 +1,6 @@
+--- 
+
+- file:
+      path: "{{ final_destination }}/{{ directory }}" 
+      state: directory
+      mode: 0755

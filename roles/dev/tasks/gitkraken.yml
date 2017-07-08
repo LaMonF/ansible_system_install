@@ -1,4 +1,6 @@
 ---
 
-- name: TODO
-  shell: echo todo 
+- get_url: 
+       url: https://release.gitkraken.com/linux/gitkraken-amd64.deb 
+       dest: /tmp/gitkraken-amd64.deb 
+- shell: dpkg -i /tmp/gitkraken-amd64.deb

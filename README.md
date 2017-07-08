@@ -1,10 +1,6 @@
-TODO
-
-
 Ansible playbook to install my personal system / lib / tools 
 including  roles : 
-- sys management: update, upgrade
-- tools : pycharm, webstorm, gitkraken, wireshark, htop, 
+- sys management: disttrib update, distrib upgrade, install fav packages, homyzsh
+- tools : pycharm, webstorm, gitkraken, wireshark, androidstudio
 - lib : 
-- 
 

@@ -1,0 +1,21 @@
+---
+
+- apt:
+        update_cache: yes
+        upgrade: dist
+
+- apt:
+        name: "{{ item }}"
+        state: present
+  with_items:
+        - ansible 
+        - git
+        - vim
+        - htop
+        - curl
+        - wget
+        - zsh
+        - nmap
+        - kvm
+        - virt-manager
+        - redshift-gtk

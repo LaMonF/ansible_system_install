@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  remote_user: monf
+
+  roles:
+          - system
+          - dev
